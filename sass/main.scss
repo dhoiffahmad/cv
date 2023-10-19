@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+// SASS  Variable
+$warna-utama: #0040A2;
+$warna-kedua: #0085D5;
+$background1: white;
+$background2: #F1F1E6;
+$warna-teks: black;
+$warna: rgb(255, 195, 83);
+
+// BODY
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-style: none;
+
+    header {
+        .nav {
+            margin: 0;
+            padding: 0 15%;
+            display: flex;
+            background-color: $warna-utama;
+            color: white;
+            justify-content: space-between;
+            .logo {
+                font-size:40px;
+                font-weight: bold;
+                margin: 0;
+                padding: 20px 0;
+            }
+            .menu {
+                display: flex;
+                list-style: none;
+                gap: 20px;
+                align-items: center;
+                font-size: 18px;
+                font-weight:500;
+            }
+        }
+    }
+
+    main{
+        .content{ 
+            margin: 0;
+          .bungkus-personal{
+                .personal{
+                    padding-top: 70px;
+                    background-color:$warna-utama;
+                    display: flex;
+                    padding: 0 15%;
+                    .text-personal{
+                        color: white;
+                        margin: auto;
+                        width: 50%;
+                        h1{
+                            font-size: 45px;
+                            margin-bottom: 30px;
+                            letter-spacing: 1px;
+                            width: 290px;
+                        }
+    
+                        .sub-h1{
+                            font-size: 15px;
+                            font-weight: bold; 
+                            color: chocolate;
+                        }
+                        p{
+                            width: 290px;
+                        }
+                    }
+    
+                        .picture-personal{
+                            width: 50%;
+                            text-align: center;
+        
+                            img {
+                                width:fit-content;
+                                height: 500px;
+                            }
+                        }
+                }
+
+                .ajakan{
+                    display: flex;
+                
+                    .data{
+                        padding: 30px 0;
+                        // background-color:rgb(180, 95, 95);
+                        width: 50%;
+                        padding: 0 5% 0 15%;
+                        align-items: center;
+
+                        h2{
+                            font-size: 15px;
+                            font-weight: bold; 
+                            color: rgb(212, 212, 212);
+                            margin-top: 30px;
+                        }
+                        p{
+                            margin-bottom: 30px;
+                            width: 290px;
+                            
+                        }
+                    }
+                    .quote-motivation{
+                        width: 50%;
+                        background-color: $warna;
+                        padding: 30px 0;
+                        padding: 0 5%;
+
+                        h2{
+                            font-size: 15px;
+                            font-weight: bold; 
+                            margin-top: 30px;
+                        }
+                        p{
+                            margin-bottom: 30px;
+                            width: 290px;
+                            
+                        }
+                    }
+                }
+
+            }
+
+
+            .cualivication{
+                display: flex;
+                padding: 90px 15% ;
+                margin: auto;
+                gap : 40px;
+                background-color: #1cc14b;
+
+                .project-cualivication{
+                    margin: auto;
+                    width: 50%;
+                    .h3-project{
+                        font-size: 35px;
+                    }
+                    .p-project{
+                        line-height: 23px;
+                        padding: 10px 0;
+                    }
+                    .data-project{
+                        display: flex;
+                        gap: 18px;
+                        .project-commplet{
+                            .done{
+                                font-size: 30px;
+                                font-weight: bold;
+                                
+                            }
+                        }
+                        }
+                        .progres-project{
+                            .fix {
+                                font-size: 30px;
+                                font-weight: bold;
+                            }
+                         }
+                    }
+                    .implementation-cualivication{
+                        width: 30%;
+                        margin: 0;
+
+                        .web{
+                            display: flex;
+                            align-items: center;
+                            padding-bottom: 10px;
+
+                            .pic-web{
+                            } img{
+
+                            }
+                                
+                            .div-cualivication{
+                                .p-cualivication{
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+
+                        .book{
+                            display: flex;
+                            align-items: center;
+                            border-top: 1px solid $background2;
+                            border-bottom: 1px solid $background2;
+                            padding: 10px 0;
+
+                            .pic-book{
+                            } img{
+
+                            }
+                            .div-cualivication{
+                                .p-cualivication{
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                        .media{
+                            display: flex;
+                            align-items: center;
+                            padding-top: 10px;
+
+                            .pic-media{
+                            } img{
+
+                            }
+                            .div-cualivication{
+                                .p-cualivication{
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+
+                  
+               
+            }
+
+            
+        }
+ 
+    }
+
+}
