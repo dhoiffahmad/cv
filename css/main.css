@@ -60,6 +60,9 @@ header .nav .menu li a {
     justify-content: center;
     align-items: center;
   }
+  header .nav .logo {
+    padding: 0;
+  }
 }
 @media screen and (max-width: 600px) {
   header .nav .menu {
@@ -80,7 +83,6 @@ header .nav .menu li a {
 .bungkus-personal .personal .text-personal h1 {
   font-size: 45px;
   margin-bottom: 30px;
-  letter-spacing: 1px;
   width: 290px;
 }
 .bungkus-personal .personal .text-personal .sub-h1 {
@@ -99,6 +101,7 @@ header .nav .menu li a {
 .bungkus-personal .personal .picture-personal img {
   width: fit-content;
   max-height: 500px;
+  margin-bottom: -5px;
 }
 .bungkus-personal .ajakan {
   display: flex;
@@ -212,8 +215,8 @@ header .nav .menu li a {
 .cualivication .implementation-cualivication .book {
   display: flex;
   align-items: center;
-  border-top: 1px solid #f1f1e6;
-  border-bottom: 1px solid #f1f1e6;
+  border-top: 1px solid rgb(207, 207, 207);
+  border-bottom: 1px solid rgb(207, 207, 207);
   padding: 10px 0;
 }
 .cualivication .implementation-cualivication .book .div-cualivication .p-cualivication {
@@ -244,7 +247,7 @@ header .nav .menu li a {
   }
 }
 .org {
-  padding: 70px 15%;
+  padding: 150px 15%;
   background-color: #0040a2;
   color: white;
 }
@@ -330,7 +333,7 @@ header .nav .menu li a {
 }
 .skill .skill1 .layout {
   width: 60%;
-  background-color: rgb(216, 125, 6);
+  background-color: rgb(255, 195, 83);
   padding: 80px;
   border-top-right-radius: 10px;
 }
@@ -342,15 +345,27 @@ header .nav .menu li a {
 }
 .skill .skill2 .social-media {
   width: 60%;
-  background-color: #117938;
+  background-color: #245ad7;
   padding: 80px;
   border-bottom-left-radius: 10px;
 }
 .skill .skill2 .eat {
   width: 40%;
-  background-color: #0040a2;
+  background-color: #36b667;
   padding: 80px;
   border-bottom-right-radius: 10px;
+}
+
+.skill .skill1 .web-design:hover,
+.skill .skill1 .layout:hover,
+.skill .skill2 .social-media:hover,
+.skill .skill2 .eat:hover {
+  background: rgba(30, 0, 162, 0.121);
+}
+
+.skill .skill1:hover,
+.skill .skill2:hover {
+  font-weight: 700;
 }
 
 @media screen and (max-width: 1023px) {
@@ -376,6 +391,18 @@ header .nav .menu li a {
     font-size: 18px;
   }
 }
+.triangle {
+  display: overflow;
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-bottom-color: rgb(60, 75, 80);
+  cursor: pointer;
+}
+
 .footer {
   border-top: 0.5px solid rgba(0, 65, 162, 0.3490196078);
   padding: 10px 15%;
