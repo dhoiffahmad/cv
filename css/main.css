@@ -221,6 +221,7 @@ header .nav .menu li a {
 .cualivication .project-cualivication .data-project {
   display: flex;
   gap: 18px;
+  padding-top: 10px;
 }
 .cualivication .project-cualivication .data-project .project-commplet .done {
   font-size: 30px;
@@ -241,6 +242,7 @@ header .nav .menu li a {
 }
 .cualivication .implementation-cualivication .web .div-cualivication .p-cualivication {
   font-weight: bold;
+  line-height: 25px;
 }
 .cualivication .implementation-cualivication .book {
   display: flex;
@@ -251,6 +253,7 @@ header .nav .menu li a {
 }
 .cualivication .implementation-cualivication .book .div-cualivication .p-cualivication {
   font-weight: bold;
+  line-height: 25px;
 }
 .cualivication .implementation-cualivication .media {
   display: flex;

@@ -260,6 +260,8 @@ header {
     .data-project {
       display: flex;
       gap: 18px;
+      padding-top: 10px;
+
       .project-commplet {
         .done {
           font-size: 30px;
@@ -283,14 +285,10 @@ header {
       align-items: center;
       padding-bottom: 10px;
 
-      .pic-web {
-      }
-      img {
-      }
-
       .div-cualivication {
         .p-cualivication {
           font-weight: bold;
+          line-height: 25px;
         }
       }
     }
@@ -302,13 +300,10 @@ header {
       border-bottom: 1px solid rgb(207, 207, 207);
       padding: 10px 0;
 
-      .pic-book {
-      }
-      img {
-      }
       .div-cualivication {
         .p-cualivication {
           font-weight: bold;
+          line-height: 25px;
         }
       }
     }
@@ -317,10 +312,6 @@ header {
       align-items: center;
       padding-top: 10px;
 
-      .pic-media {
-      }
-      img {
-      }
       .div-cualivication {
         .p-cualivication {
           font-weight: bold;
