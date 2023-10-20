@@ -35,6 +35,16 @@ header .nav .menu {
   font-weight: 500;
 }
 
+@media screen and (max-width: 1023) {
+  .nav {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+}
 .bungkus-personal .personal {
   padding-top: 70px;
   background-color: #0040a2;
