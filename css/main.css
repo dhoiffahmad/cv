@@ -154,7 +154,7 @@ header .nav .menu {
   padding: 190px 15%;
   margin: auto;
   gap: 40px;
-  background-color: #1cc14b;
+  background-color: #92c11c;
 }
 .cualivication .project-cualivication {
   margin: auto;
@@ -219,4 +219,7 @@ header .nav .menu {
   .cualivication .implementation-cualivication {
     width: 100%;
   }
+}
+.image-logo {
+  width: 50px;
 }/*# sourceMappingURL=main.css.map */
