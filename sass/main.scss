@@ -371,13 +371,20 @@ header {
     }
 
     .kerjanya {
-      //   width: 250px;
+      h3,
+      p {
+        line-height: 23px;
+      }
     }
   }
   .text-kerjanya {
     width: 70%;
     .judul-kerjanya {
       font-weight: 500;
+      line-height: 23px;
+    }
+    p {
+      line-height: 23px;
     }
   }
 }

@@ -306,11 +306,19 @@ header .nav .menu li a {
   height: 60px;
   object-fit: cover;
 }
+.flex-exprience .flex-org .kerjanya h3,
+.flex-exprience .flex-org .kerjanya p {
+  line-height: 23px;
+}
 .flex-exprience .text-kerjanya {
   width: 70%;
 }
 .flex-exprience .text-kerjanya .judul-kerjanya {
   font-weight: 500;
+  line-height: 23px;
+}
+.flex-exprience .text-kerjanya p {
+  line-height: 23px;
 }
 
 @media screen and (max-width: 1023px) {
