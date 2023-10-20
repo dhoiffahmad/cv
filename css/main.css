@@ -262,6 +262,7 @@ header .nav .menu li a {
 }
 .cualivication .implementation-cualivication .media .div-cualivication .p-cualivication {
   font-weight: bold;
+  line-height: 25px;
 }
 
 @media screen and (max-width: 1023px) {
