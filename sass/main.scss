@@ -98,6 +98,8 @@ header {
       color: $warna-utama;
       margin: auto;
       width: 50%;
+      padding-left: 30px;
+      padding-bottom: 20px;
       h1 {
         font-size: 45px;
         margin-bottom: 30px;
@@ -170,9 +172,11 @@ header {
 @media screen and (max-width: 1023px) {
   .bungkus-personal .personal .picture-personal img {
     width: 100%;
+    object-fit: scale-down;
   }
   .bungkus-personal .personal {
     padding: 0 10%;
+    padding-top: 20px;
   }
   .bungkus-personal .ajakan .data {
     padding: 0 5% 0 10%;
@@ -182,16 +186,27 @@ header {
   .bungkus-personal .personal {
     padding: 0 10%;
     flex-direction: column;
+    padding-top: 20px;
 
     .text-personal {
       margin: 0;
+      padding-left: 0;
+
+      h1 {
+        margin-bottom: 20px;
+      }
+      p {
+      }
     }
 
     .picture-personal {
       width: 100%;
     }
     .picture-personal img {
-      // max-height: 300px;
+      width: 100%;
+      max-height: 300px;
+      object-fit: scale-down;
+      margin-top: 15px;
     }
   }
   .bungkus-personal .ajakan .quote-motivation p {
@@ -375,14 +390,19 @@ header {
   }
 }
 @media screen and (max-width: 600px) {
-  .flex-exprience {
-    gap: 10px;
-    flex-direction: column;
-    .flex-org {
-      width: 100%;
-    }
-    .kerjanya {
-      width: 300px;
+  .org {
+    .flex-exprience {
+      gap: 10px;
+      flex-direction: column;
+      .flex-org {
+        width: 100%;
+        .kerjanya {
+          width: 300px;
+        }
+      }
+      .text-kerjanya {
+        width: 100%;
+      }
     }
   }
 }
