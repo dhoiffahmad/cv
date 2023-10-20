@@ -21,8 +21,8 @@ header .nav {
   margin: 0;
   padding: 0 15%;
   display: flex;
-  background-color: #0040a2;
-  color: white;
+  background-color: white;
+  color: #0040a2;
   justify-content: space-between;
 }
 header .nav .logo {
@@ -40,9 +40,18 @@ header .nav .menu {
   font-weight: 500;
   list-style: none;
 }
+header .nav .menu li {
+  padding: 2px 10px;
+}
 header .nav .menu li a {
   text-decoration: none;
-  color: white;
+  color: #0040a2;
+}
+
+.menu li:hover {
+  padding: 2px 10px;
+  background: rgba(30, 0, 162, 0.121);
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -59,7 +68,7 @@ header .nav .menu li a {
 }
 .bungkus-personal .personal {
   padding-top: 70px;
-  background-color: #0040a2;
+  background-color: white;
   display: flex;
   padding: 0 15%;
 }
@@ -127,7 +136,7 @@ header .nav .menu li a {
 
 @media screen and (max-width: 1023px) {
   .bungkus-personal .personal .picture-personal img {
-    max-height: 400px;
+    width: 100%;
   }
   .bungkus-personal .personal {
     padding: 0 10%;
