@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -30,11 +34,15 @@ header .nav .logo {
 }
 header .nav .menu {
   display: flex;
-  list-style: none;
   gap: 20px;
   align-items: center;
   font-size: 16px;
   font-weight: 500;
+  list-style: none;
+}
+header .nav .menu li a {
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (max-width: 1023px) {
@@ -289,6 +297,77 @@ header .nav .menu {
     width: 300px;
   }
 }
+.skill {
+  background-color: burlywood;
+  padding: 70px 15%;
+  margin: auto;
+}
+.skill .my-skill {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.skill .skill1 {
+  display: flex;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.skill .skill1 .web-design {
+  width: 40%;
+  background-color: #92c11c;
+  padding: 80px;
+  border-top-left-radius: 10px;
+}
+.skill .skill1 .layout {
+  width: 60%;
+  background-color: #35a4e9;
+  padding: 80px;
+  border-top-right-radius: 10px;
+}
+.skill .skill2 {
+  display: flex;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.skill .skill2 .social-media {
+  width: 60%;
+  background-color: #117938;
+  padding: 80px;
+  border-bottom-left-radius: 10px;
+}
+.skill .skill2 .eat {
+  width: 40%;
+  background-color: #c72563;
+  padding: 80px;
+  border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 1023px) {
+  .skill {
+    padding: 70px 10%;
+  }
+  .my-skill {
+    font-size: 5px;
+    font-weight: bold;
+  }
+  .skill1,
+  .skill2 {
+    display: flex;
+  }
+  .skill .skill1 .web-design,
+  .skill .skill1 .layout {
+    padding: 70px 5px;
+    font-size: 18px;
+  }
+  .skill .skill2 .social-media,
+  .skill .skill2 .eat {
+    padding: 70px 5px;
+    font-size: 18px;
+  }
+}
 .footer {
   padding: 10px 15%;
   display: flex;
@@ -305,8 +384,22 @@ header .nav .menu {
   padding: 0;
   margin: 0;
   padding-right: 20px;
+  margin-bottom: 6px;
+  color: #0040a2;
 }
 .footer .copyright {
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .copyright p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
