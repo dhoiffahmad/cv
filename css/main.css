@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: none;
 }
 
 body {
@@ -10,21 +11,22 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   border-style: none;
 }
-body header .nav {
+
+header .nav {
   margin: 0;
   padding: 0 15%;
   display: flex;
-  background-color: #0040A2;
+  background-color: #0040a2;
   color: white;
   justify-content: space-between;
 }
-body header .nav .logo {
+header .nav .logo {
   font-size: 40px;
   font-weight: bold;
   margin: 0;
   padding: 20px 0;
 }
-body header .nav .menu {
+header .nav .menu {
   display: flex;
   list-style: none;
   gap: 20px;
@@ -32,133 +34,132 @@ body header .nav .menu {
   font-size: 18px;
   font-weight: 500;
 }
-body main .content {
-  margin: 0;
-}
-body main .content .bungkus-personal .personal {
+
+.bungkus-personal .personal {
   padding-top: 70px;
-  background-color: #0040A2;
+  background-color: #0040a2;
   display: flex;
   padding: 0 15%;
 }
-body main .content .bungkus-personal .personal .text-personal {
+.bungkus-personal .personal .text-personal {
   color: white;
   margin: auto;
   width: 50%;
 }
-body main .content .bungkus-personal .personal .text-personal h1 {
+.bungkus-personal .personal .text-personal h1 {
   font-size: 45px;
   margin-bottom: 30px;
   letter-spacing: 1px;
   width: 290px;
 }
-body main .content .bungkus-personal .personal .text-personal .sub-h1 {
+.bungkus-personal .personal .text-personal .sub-h1 {
   font-size: 15px;
   font-weight: bold;
   color: chocolate;
 }
-body main .content .bungkus-personal .personal .text-personal p {
+.bungkus-personal .personal .text-personal p {
   width: 290px;
 }
-body main .content .bungkus-personal .personal .picture-personal {
+.bungkus-personal .personal .picture-personal {
   width: 50%;
   text-align: center;
 }
-body main .content .bungkus-personal .personal .picture-personal img {
+.bungkus-personal .personal .picture-personal img {
   width: fit-content;
   height: 500px;
 }
-body main .content .bungkus-personal .ajakan {
+.bungkus-personal .ajakan {
   display: flex;
 }
-body main .content .bungkus-personal .ajakan .data {
+.bungkus-personal .ajakan .data {
   padding: 30px 0;
   width: 50%;
   padding: 0 5% 0 15%;
   align-items: center;
 }
-body main .content .bungkus-personal .ajakan .data h2 {
+.bungkus-personal .ajakan .data h2 {
   font-size: 15px;
   font-weight: bold;
   color: rgb(212, 212, 212);
   margin-top: 30px;
 }
-body main .content .bungkus-personal .ajakan .data p {
+.bungkus-personal .ajakan .data p {
   margin-bottom: 30px;
   width: 290px;
 }
-body main .content .bungkus-personal .ajakan .quote-motivation {
+.bungkus-personal .ajakan .quote-motivation {
   width: 50%;
   background-color: rgb(255, 195, 83);
   padding: 30px 0;
   padding: 0 5%;
 }
-body main .content .bungkus-personal .ajakan .quote-motivation h2 {
+.bungkus-personal .ajakan .quote-motivation h2 {
   font-size: 15px;
   font-weight: bold;
   margin-top: 30px;
 }
-body main .content .bungkus-personal .ajakan .quote-motivation p {
+.bungkus-personal .ajakan .quote-motivation p {
   margin-bottom: 30px;
   width: 290px;
 }
-body main .content .cualivication {
+
+.cualivication {
   display: flex;
-  padding: 90px 15%;
+  padding: 190px 15%;
   margin: auto;
   gap: 40px;
   background-color: #1cc14b;
 }
-body main .content .cualivication .project-cualivication {
+.cualivication .project-cualivication {
   margin: auto;
   width: 50%;
 }
-body main .content .cualivication .project-cualivication .h3-project {
+.cualivication .project-cualivication .h3-project {
   font-size: 35px;
 }
-body main .content .cualivication .project-cualivication .p-project {
+.cualivication .project-cualivication .p-project {
   line-height: 23px;
   padding: 10px 0;
 }
-body main .content .cualivication .project-cualivication .data-project {
+.cualivication .project-cualivication .data-project {
   display: flex;
   gap: 18px;
 }
-body main .content .cualivication .project-cualivication .data-project .project-commplet .done {
+.cualivication .project-cualivication .data-project .project-commplet .done {
   font-size: 30px;
   font-weight: bold;
 }
-body main .content .cualivication .project-cualivication .progres-project .fix {
+.cualivication .project-cualivication .progres-project .fix {
   font-size: 30px;
   font-weight: bold;
 }
-body main .content .cualivication .implementation-cualivication {
+.cualivication .implementation-cualivication {
   width: 30%;
-  margin: 0;
+  margin: auto;
 }
-body main .content .cualivication .implementation-cualivication .web {
+.cualivication .implementation-cualivication .web {
   display: flex;
   align-items: center;
   padding-bottom: 10px;
 }
-body main .content .cualivication .implementation-cualivication .web .div-cualivication .p-cualivication {
+.cualivication .implementation-cualivication .web .div-cualivication .p-cualivication {
   font-weight: bold;
 }
-body main .content .cualivication .implementation-cualivication .book {
+.cualivication .implementation-cualivication .book {
   display: flex;
   align-items: center;
-  border-top: 1px solid #F1F1E6;
-  border-bottom: 1px solid #F1F1E6;
+  border-top: 1px solid #f1f1e6;
+  border-bottom: 1px solid #f1f1e6;
   padding: 10px 0;
 }
-body main .content .cualivication .implementation-cualivication .book .div-cualivication .p-cualivication {
+.cualivication .implementation-cualivication .book .div-cualivication .p-cualivication {
   font-weight: bold;
 }
-body main .content .cualivication .implementation-cualivication .media {
+.cualivication .implementation-cualivication .media {
   display: flex;
   align-items: center;
   padding-top: 10px;
 }
-body main .content .cualivication .implementation-cualivication .media .div-cualivication .p-cualivication {
+.cualivication .implementation-cualivication .media .div-cualivication .p-cualivication {
   font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
