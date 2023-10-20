@@ -286,4 +286,12 @@ header .nav .menu {
   .flex-exprience .kerjanya {
     width: 300px;
   }
+}
+.footer {
+  padding: 10px 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .logo-footer {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

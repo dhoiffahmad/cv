@@ -362,3 +362,14 @@ header {
     }
   }
 }
+
+// FOOTER
+.footer {
+  padding: 10px 15%;
+  display: flex;
+  justify-content: space-between;
+
+  .logo-footer {
+    display: flex;
+  }
+}
