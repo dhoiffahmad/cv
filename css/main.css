@@ -78,7 +78,7 @@ header .nav .menu {
 }
 .bungkus-personal .personal .picture-personal img {
   width: fit-content;
-  height: 500px;
+  max-height: 500px;
 }
 .bungkus-personal .ajakan {
   display: flex;
@@ -116,10 +116,21 @@ header .nav .menu {
 }
 
 @media screen and (max-width: 1023px) {
+  .bungkus-personal .personal .picture-personal img {
+    max-height: 400px;
+  }
+  .bungkus-personal .personal {
+    padding: 0 10%;
+  }
+  .bungkus-personal .ajakan .data {
+    padding: 0 5% 0 10%;
+  }
+}
+@media screen and (max-width: 600px) {
   .bungkus-personal .personal {
     padding: 0 10%;
     flex-direction: column;
-    background-color: #01280c;
+    background-color: #13c746;
   }
   .bungkus-personal .personal .text-personal {
     margin: 0;
@@ -128,7 +139,14 @@ header .nav .menu {
     width: 100%;
   }
   .bungkus-personal .personal .picture-personal img {
-    height: 400px;
+    max-height: 300px;
+  }
+  .bungkus-personal .ajakan .quote-motivation p {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .bungkus-personal .ajakan .data p {
+    width: 100%;
   }
 }
 .cualivication {
@@ -190,4 +208,15 @@ header .nav .menu {
 }
 .cualivication .implementation-cualivication .media .div-cualivication .p-cualivication {
   font-weight: bold;
+}
+
+@media screen and (max-width: 1023px) {
+  .cualivication {
+    flex-direction: column;
+    padding: 190px 10%;
+  }
+  .cualivication .project-cualivication,
+  .cualivication .implementation-cualivication {
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
