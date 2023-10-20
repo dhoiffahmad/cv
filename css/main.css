@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -35,13 +35,15 @@ header .nav .menu {
   font-weight: 500;
 }
 
-@media screen and (max-width: 1023) {
-  .nav {
+@media screen and (max-width: 1023px) {
+  header .nav {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media screen and (max-width: 600px) {
-  .nav {
+  header .nav .menu {
     display: none;
   }
 }
@@ -113,6 +115,22 @@ header .nav .menu {
   width: 290px;
 }
 
+@media screen and (max-width: 1023px) {
+  .bungkus-personal .personal {
+    padding: 0 10%;
+    flex-direction: column;
+    background-color: #01280c;
+  }
+  .bungkus-personal .personal .text-personal {
+    margin: 0;
+  }
+  .bungkus-personal .personal .picture-personal {
+    width: 100%;
+  }
+  .bungkus-personal .personal .picture-personal img {
+    height: 400px;
+  }
+}
 .cualivication {
   display: flex;
   padding: 190px 15%;
