@@ -152,6 +152,22 @@ header .nav .menu li a {
   .bungkus-personal .ajakan .data {
     padding: 0 5% 0 10%;
   }
+  .bungkus-personal .ajakan .data h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .bungkus-personal .ajakan .quote-motivation h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .bungkus-personal .ajakan .data p {
+    margin-bottom: 10px;
+  }
+  .bungkus-personal .personal .text-personal {
+    padding-left: 0;
+  }
 }
 @media screen and (max-width: 600px) {
   .bungkus-personal .personal {
@@ -165,6 +181,8 @@ header .nav .menu li a {
   }
   .bungkus-personal .personal .text-personal h1 {
     margin-bottom: 20px;
+    font-size: 35px;
+    width: 230px;
   }
   .bungkus-personal .personal .picture-personal {
     width: 100%;
