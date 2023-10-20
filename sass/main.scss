@@ -91,7 +91,7 @@ header {
     display: flex;
     padding: 0 15%;
     .text-personal {
-      color: white;
+      color: $warna-utama;
       margin: auto;
       width: 50%;
       h1 {
@@ -104,10 +104,11 @@ header {
       .sub-h1 {
         font-size: 15px;
         font-weight: bold;
-        color: chocolate;
+        color: $warna-utama;
       }
       p {
         width: 290px;
+        color: $warna-utama;
       }
     }
 
@@ -127,15 +128,14 @@ header {
 
     .data {
       padding: 30px 0;
-      // background-color:rgb(180, 95, 95);
       width: 50%;
       padding: 0 5% 0 15%;
       align-items: center;
+      background-color: #92c11c;
 
       h2 {
         font-size: 15px;
         font-weight: bold;
-        color: rgb(212, 212, 212);
         margin-top: 30px;
       }
       p {
@@ -178,7 +178,6 @@ header {
   .bungkus-personal .personal {
     padding: 0 10%;
     flex-direction: column;
-    background-color: #13c746;
 
     .text-personal {
       margin: 0;
@@ -206,7 +205,6 @@ header {
   padding: 190px 15%;
   margin: auto;
   gap: 40px;
-  background-color: #92c11c;
 
   .project-cualivication {
     margin: auto;
@@ -313,6 +311,7 @@ header {
 .org {
   padding: 70px 15%;
   background-color: #0040a2;
+  color: white;
 
   .text-org {
     text-align: center;
@@ -386,7 +385,7 @@ header {
 
 // SKILL
 .skill {
-  background-color: burlywood;
+  // background-color: burlywood;
   padding: 70px 15%;
   margin: auto;
 
@@ -410,7 +409,7 @@ header {
     }
     .layout {
       width: 60%;
-      background-color: #35a4e9;
+      background-color: rgb(216, 125, 6);
       padding: 80px;
       border-top-right-radius: 10px;
     }
@@ -429,7 +428,7 @@ header {
     }
     .eat {
       width: 40%;
-      background-color: #c72563;
+      background-color: $warna-utama;
       padding: 80px;
       border-bottom-right-radius: 10px;
     }
@@ -474,6 +473,7 @@ header {
 
 // FOOTER
 .footer {
+  border-top: 0.5px solid #0041a259;
   padding: 10px 15%;
   display: flex;
   justify-content: space-between;

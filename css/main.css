@@ -73,7 +73,7 @@ header .nav .menu li a {
   padding: 0 15%;
 }
 .bungkus-personal .personal .text-personal {
-  color: white;
+  color: #0040a2;
   margin: auto;
   width: 50%;
 }
@@ -86,10 +86,11 @@ header .nav .menu li a {
 .bungkus-personal .personal .text-personal .sub-h1 {
   font-size: 15px;
   font-weight: bold;
-  color: chocolate;
+  color: #0040a2;
 }
 .bungkus-personal .personal .text-personal p {
   width: 290px;
+  color: #0040a2;
 }
 .bungkus-personal .personal .picture-personal {
   width: 50%;
@@ -107,11 +108,11 @@ header .nav .menu li a {
   width: 50%;
   padding: 0 5% 0 15%;
   align-items: center;
+  background-color: #92c11c;
 }
 .bungkus-personal .ajakan .data h2 {
   font-size: 15px;
   font-weight: bold;
-  color: rgb(212, 212, 212);
   margin-top: 30px;
 }
 .bungkus-personal .ajakan .data p {
@@ -149,7 +150,6 @@ header .nav .menu li a {
   .bungkus-personal .personal {
     padding: 0 10%;
     flex-direction: column;
-    background-color: #13c746;
   }
   .bungkus-personal .personal .text-personal {
     margin: 0;
@@ -173,7 +173,6 @@ header .nav .menu li a {
   padding: 190px 15%;
   margin: auto;
   gap: 40px;
-  background-color: #92c11c;
 }
 .cualivication .project-cualivication {
   margin: auto;
@@ -247,6 +246,7 @@ header .nav .menu li a {
 .org {
   padding: 70px 15%;
   background-color: #0040a2;
+  color: white;
 }
 .org .text-org {
   text-align: center;
@@ -307,7 +307,6 @@ header .nav .menu li a {
   }
 }
 .skill {
-  background-color: burlywood;
   padding: 70px 15%;
   margin: auto;
 }
@@ -331,7 +330,7 @@ header .nav .menu li a {
 }
 .skill .skill1 .layout {
   width: 60%;
-  background-color: #35a4e9;
+  background-color: rgb(216, 125, 6);
   padding: 80px;
   border-top-right-radius: 10px;
 }
@@ -349,7 +348,7 @@ header .nav .menu li a {
 }
 .skill .skill2 .eat {
   width: 40%;
-  background-color: #c72563;
+  background-color: #0040a2;
   padding: 80px;
   border-bottom-right-radius: 10px;
 }
@@ -378,6 +377,7 @@ header .nav .menu li a {
   }
 }
 .footer {
+  border-top: 0.5px solid rgba(0, 65, 162, 0.3490196078);
   padding: 10px 15%;
   display: flex;
   justify-content: space-between;
