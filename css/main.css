@@ -70,28 +70,29 @@ header .nav .menu li a {
   }
 }
 .scroll-top {
-  display: none;
+  display: flex;
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  font-size: 32px;
+  color: white;
+  background-color: #0040a2;
+  border-radius: 6px;
+  border: 1px solid white;
+  justify-content: center;
+  padding: 2px;
+  transition: 0.4s;
 }
 
-@media screen and (max-width: 600px) {
-  .scroll-top {
-    display: flex;
-    position: fixed;
-    right: 1rem;
-    bottom: 2rem;
-    font-size: 32px;
-    color: white;
-    background-color: #0040a2;
-    border-radius: 6px;
-    border: 1px solid white;
-    justify-content: center;
-    padding: 2px;
-    transition: 0.4s;
-  }
-  .scroll-top:hover {
-    background-color: #0085d5;
-  }
+.scroll-top:hover {
+  background-color: #0085d5;
 }
+
+.show-scroll {
+  visibility: visible;
+  bottom: 1.5rem;
+}
+
 .bungkus-personal .personal {
   padding-top: 70px;
   background-color: white;
@@ -495,8 +496,10 @@ header .nav .menu li a {
   padding: 0;
   margin: 0;
   padding-right: 20px;
-  margin-bottom: 7px;
   color: #0040a2;
+}
+.footer .logo-footer .join {
+  margin-top: 10px;
 }
 .footer .copyright {
   display: flex;
