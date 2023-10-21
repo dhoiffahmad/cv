@@ -495,11 +495,11 @@ header .nav .menu li a {
   font-size: 40px;
   padding: 0;
   margin: 0;
-  padding-right: 20px;
+  padding-right: 10px;
   color: #0040a2;
 }
 .footer .logo-footer .join {
-  margin-top: 10px;
+  margin-top: 11px;
 }
 .footer .copyright {
   display: flex;
