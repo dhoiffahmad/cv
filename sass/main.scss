@@ -317,7 +317,7 @@ header {
 
     .web {
       display: flex;
-      align-items: center;
+      gap: 10px;
       padding-bottom: 10px;
 
       .div-cualivication {
@@ -330,7 +330,7 @@ header {
 
     .book {
       display: flex;
-      align-items: center;
+      gap: 10px;
       border-top: 1px solid rgb(207, 207, 207);
       border-bottom: 1px solid rgb(207, 207, 207);
       padding: 10px 0;
@@ -344,7 +344,7 @@ header {
     }
     .media {
       display: flex;
-      align-items: center;
+      gap: 10px;
       padding-top: 10px;
 
       .div-cualivication {
@@ -356,7 +356,11 @@ header {
     }
   }
 }
-
+.pic-web i,
+.pic-book i,
+.pic-media i {
+  font-size: 50px;
+}
 // Query Bungkus Personal
 @media screen and (max-width: 1023px) {
   .cualivication {

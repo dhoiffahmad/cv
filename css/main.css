@@ -268,7 +268,7 @@ header .nav .menu li a {
 }
 .cualivication .implementation-cualivication .web {
   display: flex;
-  align-items: center;
+  gap: 10px;
   padding-bottom: 10px;
 }
 .cualivication .implementation-cualivication .web .div-cualivication .p-cualivication {
@@ -277,7 +277,7 @@ header .nav .menu li a {
 }
 .cualivication .implementation-cualivication .book {
   display: flex;
-  align-items: center;
+  gap: 10px;
   border-top: 1px solid rgb(207, 207, 207);
   border-bottom: 1px solid rgb(207, 207, 207);
   padding: 10px 0;
@@ -288,12 +288,18 @@ header .nav .menu li a {
 }
 .cualivication .implementation-cualivication .media {
   display: flex;
-  align-items: center;
+  gap: 10px;
   padding-top: 10px;
 }
 .cualivication .implementation-cualivication .media .div-cualivication .p-cualivication {
   font-weight: bold;
   line-height: 25px;
+}
+
+.pic-web i,
+.pic-book i,
+.pic-media i {
+  font-size: 50px;
 }
 
 @media screen and (max-width: 1023px) {
