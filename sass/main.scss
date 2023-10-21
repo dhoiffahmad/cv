@@ -41,7 +41,7 @@ header {
       font-family: "Dawning of a New Day", cursive;
       font-weight: bold;
       margin: 0;
-      padding: 20px 0;
+      padding: 12px 0;
     }
     .menu {
       display: flex;
@@ -87,6 +87,33 @@ header {
   }
 }
 
+// Scrool Top
+.scroll-top {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-top {
+    display: flex;
+    position: fixed;
+    right: 1rem;
+    bottom: 2rem;
+    font-size: 32px;
+    color: white;
+    background-color: $warna-utama;
+    border-radius: 6px;
+    border: 1px solid white;
+    justify-content: center;
+    padding: 2px;
+    transition: 0.4s;
+  }
+
+  // Hover Scroll Top
+  .scroll-top:hover {
+    background-color: #0085d5;
+  }
+}
+
 // Bungkus Personal
 .bungkus-personal {
   .personal {
@@ -125,6 +152,8 @@ header {
         width: 100%;
         max-height: 500px;
         margin-bottom: -5px;
+        padding-right: 30px;
+        object-fit: scale-down;
       }
     }
   }
@@ -166,6 +195,12 @@ header {
       }
     }
   }
+}
+
+// Hover Data
+.bungkus-personal .ajakan .data:hover,
+.bungkus-personal .ajakan .quote-motivation:hover {
+  background: rgb(241 241 241);
 }
 
 // Query Bungkus Personal
